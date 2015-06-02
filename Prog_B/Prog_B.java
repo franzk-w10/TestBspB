@@ -10,6 +10,12 @@ public class Prog_B {
 		
 		System.out.println("Ausgabe der Fibonacci-Zaahlen <= 1000000: ");
 		
+		do {
+			System.out.println("\t\t"+temp);
+			i++;
+			temp=fibo(i);
+		} while (temp>1000000);
+		
 		ende();
 
 	}
