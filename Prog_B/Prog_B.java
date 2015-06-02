@@ -14,7 +14,7 @@ public class Prog_B {
 			System.out.println("\t\t"+temp);
 			i++;
 			temp=fibo(i);
-		} while (temp>1000000);
+		} while (temp<1000000);
 		
 		ende();
 
